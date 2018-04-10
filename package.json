@@ -17,7 +17,7 @@
   "author": "Roque Ribeiro",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^1.8.1",
+    "electron": "^1.8.4",
     "electron-packager": "^9.1.0"
   },
   "dependencies": {
