@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=8; IE=7; IE=9; IE=10; IE=EDGE" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="author" content="Roque Ribeiro">
+    <meta name="description" content="">
+    <link rel="shortcut icon" type="image/png" href="./images/favicon-16.png" sizes="16x16" />
+    <link rel="shortcut icon" type="image/png" href="./images/favicon-24.png" sizes="24x24" />
+    <link rel="shortcut icon" type="image/png" href="./images/favicon-32.png" sizes="32x32" />
+    <link rel="shortcut icon" type="image/png" href="./images/favicon-48.png" sizes="48x48" />
+    <link rel="shortcut icon" type="image/png" href="./images/favicon-64.png" sizes="64x64" />
+    <link rel="shortcut icon" type="image/png" href="./images/favicon-72.png" sizes="72x72" />
+    <link rel="shortcut icon" type="image/png" href="./images/favicon-96.png" sizes="96x96" />
+    <link rel="shortcut icon" type="image/png" href="./images/favicon-114.png" sizes="114x114" />
+    <link rel="shortcut icon" type="image/png" href="./images/favicon-128.png" sizes="128x128" />
+    <link rel="shortcut icon" type="image/png" href="./images/favicon-144.png" sizes="144x144" />
+    <link rel="shortcut icon" type="image/png" href="./images/favicon-256.png" sizes="256x256" />
+    <title>Modern Web Postit</title>
+    <link rel="stylesheet" href="./styles/preloader.css" type="text/css" />
+    <link rel="stylesheet" href="./styles/normalize.css" type="text/css" />
+    <link rel="stylesheet" href="./styles/modal.css" type="text/css" />
+    <link rel="stylesheet" href="./styles/jnotify.css" type="text/css" />
+    <link rel="stylesheet" href="./styles/default.css" type="text/css" />
+    <link rel="stylesheet" href="./styles/font-awesome.min.css">
+    <link rel="stylesheet" href="./scripts/jquery-ui-1.12.1/jquery-ui.css">
+	<script>if (typeof module === 'object') { window.module = module; module = undefined; }</script>
+    <script src="./scripts/jquery-3.2.1.min.js"></script>
+    <script src="./scripts/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <script src="./scripts/tinymce/tinymce.min.js"></script>
+    <script src="./scripts/jquery.transit.min.js"></script>
+    <script src="./scripts/moment-with-locales.js"></script>
+    <script src="./scripts/jnotify.js"></script>
+    <script src="./scripts/websqldump.js"></script>
+    <script src="./scripts/utils.js"></script>
+    <script src="./scripts/database.js"></script>
+    <script src="./scripts/google-sign.js"></script>
+    <script src="./scripts/modal.js"></script>
+    <script src="./scripts/default.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+	<script>if (window.module) module = window.module;</script>
+</head>
+<body>
+    <div class="notification"></div>
+    <div class="preloader">
+        <div class="preloader-box">
+            <p>A</p>
+            <p>G</p>
+            <p>U</p>
+            <p>A</p>
+            <p>R</p>
+            <p>D</p>
+            <p>E</p>
+        </div>
+    </div>
+    <div class="_area"></div>
+    <nav>
+        <ul>
+            <li>
+                <a href="javascript:void(0);" data-action="postit-create">
+                    <i class="fa fa-file-o" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:void(0);" data-action="postit-list">
+                    <i class="fa fa-list" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li style="display: none;">
+                <a href="javascript:void(0);" data-action="postit-account">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li style="display: none;">
+                <a href="javascript:void(0);" data-action="postit-signingoogle" id="signinGoogle">
+                    <span></span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>

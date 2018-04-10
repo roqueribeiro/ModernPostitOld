@@ -1,0 +1,26 @@
+{
+  "name": "modern_postit",
+  "version": "1.0.0",
+  "description": "Annotation Application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "",
+  "keywords": [
+    "Post-It",
+    "postit",
+    "notes",
+    "annotation",
+    "application"
+  ],
+  "author": "Roque Ribeiro",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^1.8.1",
+    "electron-packager": "^9.1.0"
+  },
+  "dependencies": {
+    "electron-google-oauth": "^2.0.0"
+  }
+}
